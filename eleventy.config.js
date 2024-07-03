@@ -11,6 +11,22 @@ const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
 module.exports = function(eleventyConfig) {
+	// Add passthrough copy for images
+	eleventyConfig.addPassthroughCopy("./assets/images");
+  
+	// You can add more passthrough copy rules as needed
+	// eleventyConfig.addPassthroughCopy("src/fonts");
+	// eleventyConfig.addPassthroughCopy("src/css");
+  
+	return {
+	  dir: {
+		input: "assets",
+		output: "dist"
+	  }
+	};
+  };
+
+module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
