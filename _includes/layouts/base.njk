@@ -39,21 +39,21 @@
 
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
-			<img src="./assets/logo.jpg" alt="Website logo">
+			<img src="./assets/images/logo.jpg" alt="Website logo">
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item" >
-						<a href="{{ entry.url }}" class="nav-link {% if entry.url == page.url %} active {% endif %}"
-						{% if entry.url == page.url %} aria-current="page" {% endif %}>
-						  
-						  {{ entry.title }}
-						</a>
-					</li>
-				{%- endfor %}
-				</ul>
+			<nav class="row">
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+					{%- for entry in collections.all | eleventyNavigation %}
+						<li class="nav-item" >
+							<a href="{{ entry.url }}" class="nav-link {% if entry.url == page.url %} active {% endif %}"
+							{% if entry.url == page.url %} aria-current="page" {% endif %}>
+							
+							{{ entry.title }}
+							</a>
+						</li>
+					{%- endfor %}
+					</ul>
 			</nav>
 {#
 			<nav>
