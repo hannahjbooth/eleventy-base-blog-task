@@ -45,6 +45,7 @@ We’ll make a program to calculate a tip
 
 02. Calculate the new total
 ```diff-js
+ // variables --- total amounts
  let tenTotal = tenPcTip + preTip;
  let fifteenTotal = fifteenPcTip + preTip;
  let twentyTotal = twentyPcTip + preTip;
@@ -59,8 +60,12 @@ We’ll make a program to calculate a tip
  document.write('Your total bill  with a 20% tip  is £' + twentyTotal.toFixed(2) + '.');
 ```
 Result on the page:
-
+<div class=row></div>
+<img class="col-12" src="/assets/images/page screenshot.png" alt="Screenshot of the result on the webpage">
+</div>
+<br><br>
 Extra: I also displayed the calculator in the console with the following code:
+
 ```diff-js
  // console tip calculator
  console.log('Tip calculator');
@@ -82,4 +87,6 @@ Extra: I also displayed the calculator in the console with the following code:
  console.log('Total including tip = £ '+ twentyTotal.toFixed(2)); 
 ```
 Result in the console:
-
+<div class=row></div>
+<img class="col-12" src="/assets/images/console screenshot.png" alt="Screenshot of the result in the console">
+</div>
