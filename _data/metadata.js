@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Hannah's Eleventy Base Blog Task",
+	title: "Hannah's Learnings",
 	url: "https://example.com/",
 	language: "en",
 	description: "This is my task submission for the SSG session.",

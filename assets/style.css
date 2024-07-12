@@ -1,3 +1,7 @@
+img.banner {
+    width: 600px;
+}
+
 ul li::marker {
     font-size: 24px;
 }
