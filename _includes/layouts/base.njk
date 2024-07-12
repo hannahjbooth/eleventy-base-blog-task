@@ -35,37 +35,42 @@
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 	</head>
-	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12"></div>
+				<body>
+					<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			{# <a href="/" class="home-link">{{ metadata.title }}</a> #}
-		   <img class="banner" src="/assets/images/eleventy banner.jpeg" alt="Hannah's Study Blog: Becoming a Developer"> 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav class="row">
-					<h2 class="visually-hidden">Top level navigation menu</h2>
-					<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
-					{%- for entry in collections.all | eleventyNavigation %}
-						<li class="nav-item" >
-							<a href="{{ entry.url }}" class="nav-link {% if entry.url == page.url %} active {% endif %}"
-							{% if entry.url == page.url %} aria-current="page" {% endif %}>
-							
-							{{ entry.title }}
-							</a>
-						</li>
-					{%- endfor %}
-					</ul>
-			</nav>
-</nav>
-		</header>
+					<header>
+						{# <a href="/" class="home-link">{{ metadata.title }}</a> #}
+					<img class="banner" src="/assets/images/eleventy banner.jpeg" alt="Hannah's Study Blog: Becoming a Developer"> 
+						{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+						<nav class="row">
+								<h2 class="visually-hidden">Top level navigation menu</h2>
+								<ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+								{%- for entry in collections.all | eleventyNavigation %}
+									<li class="nav-item" >
+										<a href="{{ entry.url }}" class="nav-link {% if entry.url == page.url %} active {% endif %}"
+										{% if entry.url == page.url %} aria-current="page" {% endif %}>
+										
+										{{ entry.title }}
+										</a>
+									</li>
+								{%- endfor %}
+								</ul>
+						</nav>
 
-		<main id="skip">
-			{{ content | safe }}
-		</main>
+					</header>
 
-		<footer></footer>
+					<main id="skip">
+						{{ content | safe }}
+					</main>
 
-		<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-	</body>
+					<footer></footer>
+
+					<!-- This page `{{ page.url | htmlBaseUrl }}` was built on {% currentBuildDate %} -->
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+				</body>
+			</div>
+	</div>
 </html>

@@ -50,6 +50,8 @@ li.hobbies::before {
     font-size: 24px;
     margin-right: 10px;
 }
-💐
-bouquet
-Unicode: U+1F490, UTF-8: F0 9F 92 90
+
+nav.row {
+    max-width: 80em;
+
+}
