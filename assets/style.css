@@ -50,8 +50,3 @@ li.hobbies::before {
     font-size: 24px;
     margin-right: 10px;
 }
-
-nav.row {
-    max-width: 80em;
-
-}
