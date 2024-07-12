@@ -24,6 +24,14 @@ numberOfLatestPostsToShow: 3
 
 
 <h2>Navigate by Topic</h2>
+
+<ul>
+	{% for tag in collections.all | getAllTags | filterTagList %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+	{% endfor %}
+</ul>
+	
 {#
 <ul>
 	{%- for entry in collections.all %}
@@ -31,11 +39,3 @@ numberOfLatestPostsToShow: 3
 	{%- endfor %}
 </ul>
 #}
-<ul>
-	{% for tag in collections.all | getAllTags | filterTagList %}
-		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-		<li><a href="{{ tagUrl }}">{{ tag }}</a></li>
-	{% endfor %}
-	</ul>
-	
-
