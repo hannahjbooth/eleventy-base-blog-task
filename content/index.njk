@@ -20,14 +20,22 @@ numberOfLatestPostsToShow: 3
 {% if morePosts > 0 %}
 <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
 {% endif %}
-<h2>Navigate by Topic</h2>
 {# List every content page in the project #}
 
+
+<h2>Navigate by Topic</h2>
+{#
 <ul>
 	{%- for entry in collections.all %}
 	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
 	{%- endfor %}
 </ul>
-
-
+#}
+<ul>
+	{% for tag in collections.all | getAllTags | filterTagList %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+	{% endfor %}
+	</ul>
+	
 
