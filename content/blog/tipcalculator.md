@@ -4,7 +4,6 @@ description: This post shows a JavaScript learning exercise I completed.
 date: 2024-07-06
 tags:
   - JavaScript
-  - tip calculator
 ---
 
 In our first teaching session on JavaScript, we were introduced to variables and other basic programming concepts, such as data types, arithmetic operators, strings, concatenation and template literals. We were then assigned the following take-away task to complete and upload to our Eleventy blogs.
