@@ -5,7 +5,7 @@ eleventyNavigation:
   order: 4
 ---
 # About Me
-<ul class="about-me">
+
 <br>
 <p>
   GitHub: <a href="https://github.com/hannahjbooth" target="_blank">https://github.com/hannahjbooth</a>
@@ -13,7 +13,7 @@ eleventyNavigation:
   LinkedIn: <a href="https://linkedin.com/in/hannah-booth-b92845156" target="_blank">https://linkedin.com/in/hannah-booth-b92845156</a>
 </p>  
 <br>
-
+<ul class="about-me">
 <li class="study"><p>I am currently studying Web Development and Design on a Skills Bootcamp delivered by <a href="https://thecodersguild.org.uk/" target="_blank">The Coder's Guild</a>. The course also covers crucial skills for Software Developers.</p></li>
 <li class="work">My goal is to become an apprentice Software Developer or Software Tester, and I am currently available for hire! </li>
 
