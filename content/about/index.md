@@ -5,7 +5,6 @@ eleventyNavigation:
   order: 4
 ---
 # About Me
-
 <br>
 <p>
   GitHub: <a href="https://github.com/hannahjbooth" target="_blank">https://github.com/hannahjbooth</a>
@@ -14,7 +13,7 @@ eleventyNavigation:
 </p>  
 <br>
 <ul class="about-me">
-<li class="study"><p>I am currently studying Web Development and Design on a Skills Bootcamp delivered by <a href="https://thecodersguild.org.uk/" target="_blank">The Coder's Guild</a>. The course also covers crucial skills for Software Developers.</p></li>
+<li class="study"><div><p>I recently completed a Skills Bootcamp in Web Development and Design delivered by <a href="https://thecodersguild.org.uk/" target="_blank">The Coder's Guild</a>. The course also covered crucial skills for Software Developers.</p><p>I am now continuining my studies on a daily, self-directed basis.</p></div></li>
 <li class="work">My goal is to become an apprentice Software Developer or Software Tester, and I am currently available for hire! </li>
 
 <li class="background">I have a very mixed background: an early interest in computers in childhood, a French Scientific Baccalaureate, a Degree in Music (Leeds, 2015), as well as a professional background in Hospitality which has been very people, process and knowledge oriented.</li>

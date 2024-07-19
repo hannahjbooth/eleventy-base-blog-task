@@ -68,6 +68,10 @@ body {
 	width: 1px;
 }
 
+p:first-child {
+	margin-bottom: 3px;
+
+}
 p:last-child {
 	margin-bottom: 0;
 }
