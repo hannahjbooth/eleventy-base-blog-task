@@ -73,6 +73,7 @@ p:last-child {
 }
 p {
 	line-height: 1.5;
+	margin-bottom: O;
 }
 
 li {
@@ -222,6 +223,13 @@ header {
 }
 
 /* Tags */
+.topics {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
 .post-tag {
 	display: inline-flex;
 	align-items: center;

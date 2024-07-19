@@ -7,10 +7,17 @@ eleventyNavigation:
   key: About This Blog
   order: 3
 ---
-<h1>About This Blog</h1>
-<p>Topics:</p>{%- for tag in tags | filterTagList %} {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
-	{%- endfor %}
 
+
+<h1>About This Blog</h1>
+
+<aside>
+<p class="topics">Topics:</p>
+{%- for tag in tags | filterTagList %} 
+{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+	{%- endfor %}
+</aside>
 
 
 
