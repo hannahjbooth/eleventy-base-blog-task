@@ -1,7 +1,7 @@
 ---
 title: Tip Calculator
 description: This post shows a JavaScript learning exercise I completed.
-date: 2024-07-06
+date: 2024-06-06
 tags:
   - JavaScript
 ---
