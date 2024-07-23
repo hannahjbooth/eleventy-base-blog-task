@@ -9,9 +9,11 @@ tags:
   - Logic
 ---
 
-Following our introduction to core programming concepts in JavaScript, we were exposed to the notions of logic and control flow within the context of functional programming. We learnt to write and call functions, pass arguments to a function, return values. We also learnt to apply logic to those arguments within the function in order to return a particular result, making use of variable scope, boolean values, if statements and comparison operators.
+Following our introduction to core programming concepts in JavaScript, we covered the notions of logic and control flow within the context of functional programming. We learnt to write and call functions, pass arguments to a function, and return values. We also learnt to apply logic to those arguments within the function in order to return a particular result, making use of variable scope, boolean values, if statements and comparison operators.
 
+Tasks 
 
+Task 1 
 
 
 
