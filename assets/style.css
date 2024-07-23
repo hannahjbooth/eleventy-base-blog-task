@@ -50,3 +50,12 @@ li.hobbies::before {
     font-size: 24px;
     margin-right: 10px;
 }
+
+#task4 {
+    border-style: solid;
+    padding: 5px;
+}
+
+#temperature {
+    width: 35px;
+}
