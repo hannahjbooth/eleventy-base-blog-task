@@ -9,7 +9,7 @@ tags:
   - Logic
 ---
 
-Following our introduction to core programming concepts in JavaScript, we covered the notions of logic and control flow within the context of functional programming. We learnt to write and call functions, pass arguments to a function, and return values. We also learnt to apply logic to those arguments within the function in order to return a particular result, making use of variable scope, boolean values, if statements and comparison operators.
+Following our introduction to core programming concepts within JavaScript, we covered the notions of logic and control flow within the context of functional programming. We learnt to write and call functions, pass arguments to a function, and return values. We also learnt to apply logic to those arguments within the function in order to return a particular result, making use of variable scope, boolean values, if statements and comparison operators.
 
 <h2>Practical Tasks</h2>
 Here are four tasks I completed for this lesson. For the first three, you will find firstly my JavaScript code, and then how the result appears in the DevTools Console.
@@ -56,15 +56,15 @@ console.log(myName);
 
 <h3>Task 4:</h3>
 
-Having learnt about the DOM since this lesson, I have upgraded my original code for this exercise, so as to integrate it to this page.
+Update: Having learnt about the DOM since this lesson, I have upgraded my original code for this exercise, so as to integrate it to this page.
 
 01. Make a variable called "temperature". Write some code that tells you to put on a coat if it is below 50 degrees.
 02. Extend the Program to show the following:
 
-- If it's less than 50 degrees, wear a coat.
-- If it's less than 30 degrees, wear a coat and a hat.
-- If it's less than 0 degrees, stay inside.
-- Otherwise, just pants and vest is fine.
+<p>If it's less than 50 degrees, wear a coat.</p> 
+<p>If it's less than 30 degrees, wear a coat and a hat.</p>
+<p>If it's less than 0 degrees, stay inside.</p>
+<p>Otherwise, just pants and vest is fine.</p>
 
 03. Add a logical operator to your ‘Shall I wear a coat?’ program
 
