@@ -1,7 +1,7 @@
 ---
 title: Functions & Control Flow
 description: This post shows a JavaScript learning exercise I completed.
-date: 2024-06-20
+date: 2024-06-13
 tags:
   - JavaScript
   - Functions

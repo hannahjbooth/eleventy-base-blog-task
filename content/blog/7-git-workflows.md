@@ -1,7 +1,7 @@
 ---
 title: Working with Git
-description: Learning to
-date: 2018-08-24
+description: 
+date: 2024-05-16
 tags:
   - Git
   - GitHub
