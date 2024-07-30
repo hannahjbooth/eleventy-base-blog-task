@@ -6,8 +6,22 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 ---
 
-<h1>Welcome to my Learnings Blog!</h1>
-<p>Introductory paragraph.</p>
+<h1>Welcome to my Study Blog!</h1>
+<br>
+<ul class="welcome">
+<li class="developer"><p>My name is Hannah, and I am an aspiring developer. I built this blog both to document and put into practice my learnings.</p>
+</li>
+<li class="navigate"><p>You will find my full journey under <a href="/content/blog.njk">Posts</a>, and you can also navigate what I've learnt by theme.</p>
+</li>
+<li class="me"><p>You can also read more <a href="/content/about/index.md">About Me</a>, and also about <a href="/content/about-blog.njk">how I built this blog</a> using Eleventy.</p>
+</li>
+<li class="hello">
+<p>You are very welcome to reach out to me via my <a href="/content/contact-me.njk">contact page</a>!</p>
+</li>
+
+<p>Hannah</p>
+</ul>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
