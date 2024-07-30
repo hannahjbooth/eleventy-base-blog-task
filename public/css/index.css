@@ -241,10 +241,7 @@ header {
 	text-transform: capitalize;
 	font-style: italic;
 }
-.taglist {
-	text-indent: 3em;
 
-}
 .postlist-item > .post-tag {
 	align-self: center;
 }
