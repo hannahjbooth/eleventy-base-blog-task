@@ -8,14 +8,14 @@ tags:
   - Version Control
 ---
 
-In our initial class on working with Git, we learnt the theoretical concepts around source control. This was followed by a very useful learning exercise on app Git-It, which helped cement what I now practice every day through my command line on VS Code and on GitHub.
+In our initial class on working with Git, we learnt the core theoretical concepts around source control. This was followed by a very useful learning exercise on app Git-It, which helped cement what I now practice every day through my command line on VS Code and on GitHub.
 
 Key take-aways:
 
 - Git is a version control system which holds the history of every change saved to a project
 - Many versions of a project may exist, different on branches, for the purpose of working on specific tasks or versions - these are later merged back into a main branch
 - A team of developers can push to and pull from a remote repository, in order to work on a local repository on their own computers
-- Committing changes often and with a coherent message is best practice
+- Committing changes often and with a precise and coherent message is best practice
 
 My GitHub: <a href="https://github.com/hannahjbooth" target="_blank">https://github.com/hannahjbooth</a>
 
