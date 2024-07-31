@@ -129,4 +129,3 @@ We need to work out the total cost of the items in the shopping cart.</p>
 </ul>
 
 <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/zYVxgGq?editors=1011" target="_blank">https://codepen.io/hannahbooth/pen/zYVxgGq?editors=1011</a></p>
-
