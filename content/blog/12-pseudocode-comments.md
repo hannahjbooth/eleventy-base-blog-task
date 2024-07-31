@@ -170,3 +170,64 @@ tags:
 <h3>My result</h3>
 
 <img class="recipes-screenshot" src="/assets/images/pseudocode-comments/recipes-pseudocode.png" alt="screenshot of result in the console">
+
+<h2>Fix Start</h2>
+
+<h3>Instructions</h3>
+
+<p>Create a function called fixStart. It should take a single argument, a string, and return a version where all occurrences of its first character have been replaced with ‘*****’, except for the first character itself. You can assume that the string is at least one character long. For example:
+</p>
+
+<ul>
+  <li><p>fixStart('babble'): 'ba**le'</p></li>
+  <li><p>fixStart('turtle'): 'tur*le'</p></li>
+</ul>
+
+<h3>My pseudocode</h3>
+
+```diff-js
+ // LET function be named fixStart
+ //     LET it take a single argument, a string
+ //     LET the result of the function be stored in a variable named result
+ //         LET result be assigned the first character of the argument
+ //         LET the function add characters to result
+ //             FOR each character of the argument from the second charater onwards
+ //                 IF the character is identical to the first character of the argument
+ //                     add the the string "*" to result
+ //                 IF not
+ //                     add the character to result
+ //     RETURN result
+ // LOG function with an argument
+```
+
+
+<h3>My code</h3>
+
+```diff-js
+ // LET the function fixStart take a word argument
+ function fixStart(word) {
+     // LET the result of the function be assigned to a variable which starts with the word argument's first character
+     var result = word[0];
+     // LOOP through the word argument's characters
+     for (let i = 1 ; i < word.length ; i++) {
+         // IF the word argument's character is identical to the word argument's first character
+         if (word[i] == word[0]) {
+             // ADD '*' to the result (in place of the character)
+             result += '*'
+         // IF the word argument's character is not identical to the word argument's first character
+         } else {
+             // ADD it to the result
+             result += word[i];
+         }
+     }
+     // RETURN the result once the iteration through the word argument has ended
+     return result;
+ }
+
+ // LOG the function with a string as an argument
+ console.log(fixStart("chicken"));
+```
+
+<h3>My result</h3>
+
+<img class="fixstart-screenshot" src="/assets/images/pseudocode-comments/fixstart-pseudocode.png" alt="screenshot of result in the console">
