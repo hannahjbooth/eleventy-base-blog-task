@@ -6,11 +6,7 @@ tags:
   - JavaScript
   - Functions
 ---
-A second, more practical session on Loops, Arrays and Objects involved two slightly more in depth exercises.
-
-
-<h2>Title</h2>
-<h3>Instructions</h3>
+A second, more practical session on Loops, Arrays and Objects expanded on these concepts with the following two exercises.
 
 
 <h2>Task 1 - Shopping Cart</h2>
@@ -18,7 +14,6 @@ A second, more practical session on Loops, Arrays and Objects involved two sligh
 <p>We are going to be using an array of objects provided as a simple shopping cart example.
 We need to work out the total cost of the items in the shopping cart.</p>
 
-<p><b>My code:</b><a href=""></a></p>
 <div id="accordion">
     <!-- Part 1 -->
     <div class="card">
@@ -36,7 +31,7 @@ We need to work out the total cost of the items in the shopping cart.</p>
             Loop through each item in the array and add the value of the item to the total price, remember to account for the quantity.
             Return the totalPrice Variable
             Console.log the returned value</p>
-            <p><b>My code:</b><a href="https://codepen.io/hannahbooth/pen/bGPNPzx" target="_blank">https://codepen.io/hannahbooth/pen/bGPNPzx</a></p>
+            <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/bGPNPzx" target="_blank">https://codepen.io/hannahbooth/pen/bGPNPzx</a></p>
         
         </div>
     </div>
@@ -56,7 +51,7 @@ We need to work out the total cost of the items in the shopping cart.</p>
             Loop through each item in the array and add the value of the item to the total price, remember to account for the quantity. 
             If the item has a type of “food” the total price is 20% less
             Return the totalPrice Variable</p>
-            <p><b>My code:</b><a href="https://codepen.io/hannahbooth/pen/qBzEzwq" target="_blank">https://codepen.io/hannahbooth/pen/qBzEzwq</a></p>
+            <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/qBzEzwq" target="_blank">https://codepen.io/hannahbooth/pen/qBzEzwq</a></p>
         
         </div>
     </div>
@@ -74,7 +69,7 @@ We need to work out the total cost of the items in the shopping cart.</p>
             <p>Add 2 extra arguments to the function for “discountAmount” and “type”
             Replace the logic that takes off 20% for object.type == “food” for object.type == type and allow the 20% to be the {discountAmount}%
             Create logic so that if type == “any” all products have a discount applied</p>
-            <p><b>My code:</b><a href="https://codepen.io/hannahbooth/pen/RwzNzXx" target="_blank">https://codepen.io/hannahbooth/pen/RwzNzXx</a></p>
+            <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/RwzNzXx" target="_blank">https://codepen.io/hannahbooth/pen/RwzNzXx</a></p>
         </div>
     </div>
     <!-- Part 4 -->
@@ -94,7 +89,7 @@ We need to work out the total cost of the items in the shopping cart.</p>
             <p>Create an empty array called arrItems at the start of the function.</p>
             <p>Loop through each item of the array</p>
             <p>If the price value is higher than or equal to the lowPrice and lower than or equal to the highPrice push to arrItems</p>
-            <p><b>My code:</b><a href="https://codepen.io/hannahbooth/pen/RwzNXbx" target="_blank">https://codepen.io/hannahbooth/pen/RwzNXbx</a></p>
+            <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/RwzNXbx" target="_blank">https://codepen.io/hannahbooth/pen/RwzNXbx</a></p>
         </div>
     </div>
     <!-- Part 5 -->
@@ -110,36 +105,28 @@ We need to work out the total cost of the items in the shopping cart.</p>
         <div class="card card-body">
             <p>Add an additional argument to the function “quantity” this is going to be a boolean</p>
             <p>If quantity == true then account for the total price with the quantity included as being between lowPrice and highPrice</p>
-            <p><b>My code:</b><a href="https://codepen.io/hannahbooth/pen/WNqbVNm" target="_blank">https://codepen.io/hannahbooth/pen/WNqbVNm</a></p>
+            <p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/WNqbVNm" target="_blank">https://codepen.io/hannahbooth/pen/WNqbVNm</a></p>
         </div>
     </div>    
 </div>
-
+<br>
 <h2>Task 2 - Mode, Median and Mean</h2>
 
 <h3>Instructions</h3>
-<p>We are going to be creating a function that is able to take all of the values of an array and return the average.</p>
+<p>We are going to be creating a function that is able to take all of the values of an array and return the mode, median or mean of the numbers.</p>
 
+<ul>
+    <li><p>Create an array of random numbers</p></li>
+    <li><p>Create a new function which takes 2 arguments (the array and a type variable).</p></li>
+    <li><p>Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’</p></li>
+    <li><p>Each case will take a function that takes 1 argument (the array) and that can work out:</p></li>
+    <ul>
+        <li><p>1) the mean of the numbers provided</p></li>
+        <li><p>2) the mode of the numbers provided</p></li>
+        <li><p>3) the median of the numbers provided</p></li>
+    </ul>
+    <li><p>Return the required number based on the arguments passed.</p></li>
+</ul>
 
-Part 1
-The function will be able to return the mode, median or mean of the numbers.
+<p><b>My code: </b><a href="https://codepen.io/hannahbooth/pen/zYVxgGq?editors=1011" target="_blank">https://codepen.io/hannahbooth/pen/zYVxgGq?editors=1011</a></p>
 
-Create an array of random numbers
-Create a function that takes 1 argument (the array) which can work out the mean of the numbers provided
-Create a function which can work out the mode of the numbers provided
-Create a function which can work out the median of the numbers provided
-Part 2
-
-Create a new function which takes 2 arguments (the array and a type variable).
-Create a switch statement which has the cases ‘mode’, ‘median’ and ‘mean’
-Copy and paste the functionality from your 3 previous functions into the case statement
-Return the required number based on the arguments passed.
-
-<h2>Title</h2>
-<h3>Instructions</h3>
-<h3>My code</h3>
-
-```diff-js
-
-```
-<h3>My result</h3>
