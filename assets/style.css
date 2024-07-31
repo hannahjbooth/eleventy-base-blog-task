@@ -97,7 +97,7 @@ li.git::before {
     display: flex;
 }
 
-.calculator-screenshot, .books-screenshot {
+.calculator-screenshot, .books-screenshot, .recipes-screenshot {
     width: 600px;
 }
 

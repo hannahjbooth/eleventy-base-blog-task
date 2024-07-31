@@ -28,26 +28,26 @@ tags:
 <h3>My pseudocode</h3>
 
 ```diff-js
-// LET an array contain:
-//     objects:
-//         describing a book
-//         containing properties for:
-//             the book's title (a string)
-//             the book's author (a string)
-//             whether the book has already been read (a boolean true/false)
-// ITERATE through the array
-//     IF book has been read
-//         LOG a string stating the title, the author, and that the book has been read
-//     IF book hasn't been read
-//         LOG a string stating the title, the author, and that the book still needs reading
+ // LET an array contain:
+ //     objects:
+ //         describing a book
+ //         containing properties for:
+ //             the book's title (a string)
+ //             the book's author (a string)
+ //             whether the book has already been read (a boolean true/false)
+ // ITERATE through the array
+ //     IF book has been read
+ //         LOG a string stating the title, the author, and that the book has been read
+ //     IF book hasn't been read
+ //         LOG a string stating the title, the author, and that the book still needs reading
 
 ```
 
 <h3>My code</h3>
 
 ```diff-js
-// An array of objects each describing books
-let booksArray = [
+ // An array of objects each describing books
+ let booksArray = [
     {title: `The Magician's Nephew`, author: `C. S. Lewis`, alreadyRead: true},
     {title: `The Lion, the Witch and the Wardrobev`, author: `C. S. Lewis`, alreadyRead: true},
     {title: `The Horse and His Boy`, author: `C. S. Lewis`, alreadyRead: true},
@@ -55,10 +55,10 @@ let booksArray = [
     {title: `The Voyage of the Dawn Treader`, author: `C. S. Lewis`, alreadyRead: false},
     {title: `The Silver Chair`, author: `C. S. Lewis`, alreadyRead: false},
     {title: `The Last Battle`, author: `C. S. Lewis`, alreadyRead: false},
-]
+ ]
 
-// ITERATE through the array
-for (let book of booksArray) {
+ // ITERATE through the array
+ for (let book of booksArray) {
     // IF book has been read
     if (book.alreadyRead) {
         // Log a string stating the title, the author, and that the book has been read
@@ -68,9 +68,105 @@ for (let book of booksArray) {
         // LOG a string stating the title, the author, and that the book still needs reading        
         console.log(`You still need to read ${book.title} by ${book.author}.`);
     }
-}
+ }
 ```
 <h3>My result</h3>
 <img class="books-screenshot" src="/assets/images/pseudocode-comments/books-pseudocode.png" alt="screenshot of result in console">
 
+<h2>Recipe</h2>
 
+<h3>Instructions</h3>
+
+<p>Create an object to hold information on your favourite recipes. It should have properties for:</p>
+<ul>
+  <li><p>recipeTitle (a string)</p></li>
+  <li><p>servings (a number)</p></li>
+  <li><p>ingredients (an array of strings)</p></li>
+  <li><p>directions (a string)</p></li>
+</ul>
+<p>List all recipes</p>
+
+<p>Create a loop to list all the ingredients.</p>
+
+<h3>My pseudocode</h3>
+
+```diff-js
+ // LET each recipe be stored in an object
+ //    LET each object have properties:
+ //        LET recipeTitle be a string
+ //        LET servings be a number
+ //        LET ingredients be an array of strings
+ //        LET directions be a string
+ //
+ // LET each recipe object be stored in an array
+ // LOOP through the array of recipes
+ //    FOR each recipe
+ //        LOG a string containing its title, servings and directions
+ //
+ // LOOP through the array of recipes
+ //    FOR each recipe
+ //        LOG its ingredients
+```
+
+<h3>My code</h3>
+
+```diff-js
+ // 5 recipe objects:
+ let recipe1 = {
+    recipeTitle: "Pancakes",
+    servings: 4,
+    ingredients: ["flour", "milk", "egg", "baking powder", "sugar", "salt"],
+    directions: "Mix the dry ingredients. Add milk and eggs. Cook on a hot griddle until golden brown."
+ };
+
+ let recipe2 = {
+    recipeTitle: "Caesar Salad",
+    servings: 2,
+    ingredients: ["romaine lettuce", "croutons", "parmesan cheese", "Caesar dressing"],
+    directions: "Toss the lettuce with dressing. Add croutons and parmesan. Serve immediately."
+ };
+
+ let recipe3 = {
+    recipeTitle: "Grilled Cheese Sandwich",
+    servings: 1,
+    ingredients: ["bread", "cheese", "butter"],
+    directions: "Butter the bread. Place cheese between slices. Grill until the bread is golden brown and the cheese is melted."
+ };
+
+ let recipe4 = {
+    recipeTitle: "Chicken Stir Fry",
+    servings: 4,
+    ingredients: ["chicken breast", "soy sauce", "vegetable oil", "broccoli", "carrot", "bell pepper", "garlic"],
+    directions: "Cook the chicken in oil. Add vegetables and stir fry. Add soy sauce and cook until vegetables are tender."
+ };
+
+ let recipe5 = {
+    recipeTitle: "Chocolate Chip Cookies",
+    servings: 24,
+    ingredients: ["flour", "baking soda", "salt", "butter", "sugar", "brown sugar", "vanilla extract", "egg", "chocolate chips"],
+    directions: "Mix dry ingredients. Cream butter and sugars. Add egg and vanilla. Combine with dry ingredients and stir in chocolate chips. Bake at 350°F for 10-12 minutes."
+};
+
+ // array which stores all the recipe objects
+ let recipesArray = [recipe1, recipe2, recipe3, recipe4, recipe5];
+
+ // object to hold all the recipes (= the array of multiple recipes)
+ let allRecipesObject = {
+    recipes: recipesArray
+};
+
+ // For each recipe of the array of recipes
+ for (let recipe of recipesArray) {
+    // Log a string containing its title, servings and directions
+    console.log(`Title: ${recipe.recipeTitle}, Servings: ${recipe.servings}, Directions: ${recipe.directions}`);
+
+}
+ // For each recipe of the array of recipes
+ for (let recipe of recipesArray) {
+    // Log its ingredients
+    console.log(recipe.ingredients);
+}
+```
+<h3>My result</h3>
+
+<img class="recipes-screenshot" src="/assets/images/pseudocode-comments/recipes-pseudocode.png" alt="screenshot of result in the console">
