@@ -123,10 +123,7 @@ calculator(1, "+", 2);
 ```
 
 <h3>My result</h3>
-
-
-
-
+<img class="calculator-screenshot" src="/assets/images/more-fns-control-flow/Screenshot 2024-07-31 at 15.44.20.png" alt="screenshot of my result in the console">
 
 <script>
     function percentageCalculator(event) {
