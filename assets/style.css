@@ -10,7 +10,7 @@ ul li {
     display: flex; 
     align-items: center; 
     list-style-type: none;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 
 }
 
@@ -101,3 +101,10 @@ li.git::before {
     width: 600px;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
