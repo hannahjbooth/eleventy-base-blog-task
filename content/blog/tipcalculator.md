@@ -1,5 +1,5 @@
 ---
-title: Tip Calculator
+title: Creating a basic a Tip Calculator with JavaScript
 description: This post shows a JavaScript learning exercise I completed.
 date: 2024-06-06
 tags:
