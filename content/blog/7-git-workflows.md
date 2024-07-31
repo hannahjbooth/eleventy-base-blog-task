@@ -9,6 +9,7 @@ tags:
 ---
 
 In our initial class on working with Git, we learnt the core theoretical concepts around source control. This was followed by a very useful learning exercise on app Git-It, which helped cement what I now practice every day through my command line on VS Code and on GitHub.
+<p>My GitHub: <a href="https://github.com/hannahjbooth" target="_blank">https://github.com/hannahjbooth</a></p>
 
 <h2>Key take-aways:</h2>
 <ul>
@@ -18,5 +19,4 @@ In our initial class on working with Git, we learnt the core theoretical concept
 	<li class="git"><p><b>Committing</b> changes often and with a precise and coherent <b>message</b> is best practice</p></li>
 </ul>
 
-<p>My GitHub: <a href="https://github.com/hannahjbooth" target="_blank">https://github.com/hannahjbooth</a></p>
 
