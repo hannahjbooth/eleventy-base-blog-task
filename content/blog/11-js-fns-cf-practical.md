@@ -127,10 +127,6 @@ calculator(1, "+", 2);
 
 
 
-
-
-
-
 <script>
     function percentageCalculator(event) {
         event.preventDefault();
