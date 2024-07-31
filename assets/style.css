@@ -13,7 +13,9 @@ ul li {
     padding-bottom: 5px;
 
 }
-
+.about-me li {
+    padding-bottom: 20px;
+}
 li.study::before {
     content: '\1F4DA'; 
     font-size: 24px;
