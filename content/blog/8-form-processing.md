@@ -3,11 +3,12 @@ title: Form Processing
 description: 
 date: 2024-05-30
 tags:
-  - Javascript
+  - Forms
   - HTML
   - Bootstrap
+  - JavaScript
 ---
-<p>This session was a deep-dive into the <b>form elements</b> and their <b>attributes</b> (such as input and type), as well as correct and safe practices around <b>data collection</b>. We covered <b>validation</b>, which was also an early introduction to Javascript.</p>
+<p>This session was a deep-dive into the <b>form elements</b> and their <b>attributes</b> (such as input and type), as well as correct and safe practices around <b>data collection</b>. We covered <b>validation</b>, which was also an early introduction to JavaScript.</p>
 
 <h2>Take-away Task</h2>
 
