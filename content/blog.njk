@@ -8,3 +8,12 @@ eleventyNavigation:
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+
+<h2>Navigate by Theme</h2>
+
+<ul>
+	{% for tag in collections.all | getAllTags | filterTagList %}
+		{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+		<li class="tagnav"><a href="{{ tagUrl }}">{{ tag }}</a></li>
+	{% endfor %}
+</ul>
