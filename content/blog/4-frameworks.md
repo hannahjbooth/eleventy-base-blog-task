@@ -30,31 +30,13 @@ Remote Repository: <a href="https://github.com/hannahjbooth/allotment-website" t
 <p>I drew from this both for adding and customising components on my page. I added a navigation bar, an FAQ section, a photo gallery in the form of a carousel, a contact form, and two listed sections for News and Events.</p>
 
 <h4><b>Styling</b></h4> <p>I found it really useful to be able to apply styling straight to the classes of my elements - the documentation specifies ways of applying <b>flexbox</b>, margins, color, and so on - I used these to customise the Bootstrap components I've added.</p>
-<br>
 <h4><b>Going Forward</b></h4>
 
 <p>So far, I have integrated to my page all the key aspects of my learnings on the topic of frameworks.</p>
 
 <p>I am continuing to work on the styling and the content of the page.</p> 
-<!--
-- working with documentation:
-- understanding frameworks 
-- CDN vs 
-- becoming familiar with working with documentation
-- applying flexbox principles
-- troubleshooting with the dev tools
-- inserting and customising components
-- customising the CSS
-- customising the JS?
-- semantic HTML layout, limitations of Bootstrap?
+<p>I'm conscious that Bootstrap can present certain limitations around semantic HTML - this is something I'm mindful of as I review my work.</p>
 
-
-- Create a semantic HTML layout to advertise a topic close to your heart, or a local business.
-- Look around at designs for similar topics/businesses
-- Create a similar site using Bootstrap components
-- Feel free to add custom CSS on top - but the main components must be built using Bootstrap. 
-- The footer will contain a copyright symbol and this year.
- -->
 
 
 
