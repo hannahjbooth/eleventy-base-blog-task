@@ -85,3 +85,14 @@ li.git::before {
 #temperature {
     width: 35px;
 }
+
+.percentage {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+    width: 250px;
+}
+.resultElements {
+    display: flex;
+}
